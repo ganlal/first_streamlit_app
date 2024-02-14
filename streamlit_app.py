@@ -29,7 +29,7 @@ streamlit.dataframe(fruits_to_show)
 #========frutivice code..
 streamlit.header("Fruityvice Fruit Advice!")
 try:
-  fruit_choice = streamlit.text_input('What fruit you like information about?','Kiwi')
+  fruit_choice = streamlit.text_input('What fruit you like information about?')
   if not fruit_choice or fruit_choice == '':
     streamlit.error("Please select a fruit to get information..")
   else:
