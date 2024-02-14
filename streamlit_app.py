@@ -24,5 +24,6 @@ fruits_selected = streamlit.multiselect("Pick some fruits: ", list(my_fruit_list
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display the table on the page..
 streamlit.dataframe(fruits_to_show)
-streamlit.text(fruityvice_response.json())
+
 streamlit.header("Fruityvice Fruit Advice!")
+streamlit.text(fruityvice_response.json())
