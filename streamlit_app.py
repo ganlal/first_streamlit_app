@@ -16,7 +16,7 @@ streamlit.header('Brakfast Menu')
 streamlit.text('🥗 Omega-3 & Blueberry Oatmeal')
 streamlit.text('🥣 Kale, Spinach & Rocket Smoothie')
 streamlit.text('🐔 Hardboiled free-range egg')
-streamlit.text('🥑🍞 Avocado Toast')
+streamlit.text('🥑🍞 Avocado Toast nnnnn')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 # let's put a pick list 
